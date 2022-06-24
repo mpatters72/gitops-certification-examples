@@ -6,7 +6,7 @@ COPY . .
 
 RUN CGO_ENABLED=0 GOOS=linux go build 
 
-FROM alpine:3.13
+FROM alpine:3.16
 
 EXPOSE 8080
 
